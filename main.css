@@ -1,0 +1,48 @@
+/* Basic reset for the page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #dbe7f1; /* light blue background */
+    font-family: Arial, sans-serif;
+}
+
+/* Card styling */
+.card {
+    background-color: #ffffff;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* QR code section */
+.qr-code {
+    width: 100%;
+    padding-top: 100%; /* makes it square */
+    background-color: #2d9cdb; /* blue background */
+    background-image: url('../images/image-qr-code.png'); /* Updated path to QR code image */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card h1 {
+    font-size: 1.2em;
+    color: #1f3251;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 0.9em;
+    color: #7d879c;
+}
